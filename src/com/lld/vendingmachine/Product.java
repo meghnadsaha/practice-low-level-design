@@ -2,6 +2,11 @@ package com.lld.vendingmachine;
 
 public class Product {
 
+    String name;
+
+    double price;
+    int quantity;
+
     public Product ( String name , double price , int quantity ) {
         this.name = name;
         this.price = price;
@@ -33,15 +38,12 @@ public class Product {
         this.quantity = quantity;
     }
 
-    String name;
 
-    double price;
-    int quantity;
 
     /**
-     * Custom method
+     * Custom methods
      */
-    
+
     void reduceQuantity ( int amount ) {
         if (quantity >= amount) {
             quantity -= amount;
