@@ -1,4 +1,4 @@
-package com.lld.vendingmachine;
+package com.lld.vendingmachine.v1;
 
 public class Product {
 

@@ -1,4 +1,4 @@
-package com.lld.vendingmachine;
+package com.lld.vendingmachine.v1;
 
 import java.util.HashMap;
 import java.util.Map;
