@@ -1,4 +1,4 @@
-package com.lld.parkinglot.basic;
+package com.lld.parkinglot.v2;
 
 import java.util.Date;
 

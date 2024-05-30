@@ -1,4 +1,4 @@
-package com.lld.parkinglot.basic;
+package com.lld.parkinglot.v1;
 
 enum VehicleType {
     CAR,

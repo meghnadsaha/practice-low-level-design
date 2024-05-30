@@ -1,4 +1,4 @@
-package com.lld.parkinglot.basic;
+package com.lld.parkinglot.v2;
 
 class Vehicle {
     private String licensePlate;
