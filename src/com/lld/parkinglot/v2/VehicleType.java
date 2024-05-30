@@ -1,6 +1,6 @@
 package com.lld.parkinglot.v2;
 
-enum VehicleType {
+public enum VehicleType {
     CAR,
     TRUCK,
     MOTORCYCLE

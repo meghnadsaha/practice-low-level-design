@@ -1,6 +1,6 @@
 package com.lld.parkinglot.v2;
 
-class Vehicle {
+public class Vehicle {
     private String licensePlate;
     private VehicleType type;
 
