@@ -5,9 +5,9 @@ import java.util.Map;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class VendingMachine {
-    Map<String, Product> products = new HashMap<>();
-    Map<Integer, Integer> coins = new HashMap<>();
-    Map<Integer, Integer> notes = new HashMap<>();
+    Map<String, Product> products;
+    private Map<Coin, Integer> coins;
+    private Map<Note, Integer> notes;
     double totalMoney;
     private final ReentrantLock lock = new ReentrantLock();
 
@@ -20,25 +20,25 @@ public class VendingMachine {
     }
 
     private void initializeCurrency () {
-        // Initialize with common denominations
-        coins.put(1, 0);
-        coins.put(5, 0);
-        coins.put(10, 0);
-        coins.put(25, 0);
-        notes.put(100, 0);
-        notes.put(500, 0);
+        // Initialize with zero quantity for each denomination
+        for (Coin coin : Coin.values()) {
+            coins.put(coin, 0);
+        }
+        for (Note note : Note.values()) {
+            notes.put(note, 0);
+        }
     }
 
-    public void addProduct(Product product) {
+    public void addProduct ( Product product ) {
         lock.lock();
         try {
-            products.put(product.getName(), product);
+            products.put(product.getName() , product);
         } finally {
             lock.unlock();
         }
     }
 
-    public void removeProduct(String name) {
+    public void removeProduct ( String name ) {
         lock.lock();
         try {
             products.remove(name);
@@ -47,7 +47,7 @@ public class VendingMachine {
         }
     }
 
-    public void restockProduct(String name, int quantity) {
+    public void restockProduct ( String name , int quantity ) {
         lock.lock();
         try {
             if (products.containsKey(name)) {
@@ -58,7 +58,7 @@ public class VendingMachine {
         }
     }
 
-    public double collectMoney() {
+    public double collectMoney () {
         lock.lock();
         try {
             double moneyCollected = totalMoney;
@@ -69,7 +69,7 @@ public class VendingMachine {
         }
     }
 
-    public String dispenseProduct(String name, double payment) {
+    public String dispenseProduct ( String name , double payment ) {
         lock.lock();
         try {
             if (!products.containsKey(name)) {
@@ -93,7 +93,7 @@ public class VendingMachine {
         }
     }
 
-    private String formatChangeMessage(Map<Integer, Integer> changeMap) {
+    private String formatChangeMessage ( Map<Integer, Integer> changeMap ) {
         if (changeMap.isEmpty()) {
             return "No change returned.";
         }
@@ -115,16 +115,16 @@ public class VendingMachine {
 //    }
 
 
-    public Map<Integer, Integer> returnChange(double amount) {
+    public Map<Integer, Integer> returnChange ( double amount ) {
         Map<Integer, Integer> change = new HashMap<>();
         int remaining = (int) amount;
 
-        int[] denominations = {500, 100, 25, 10, 5, 1};
+        int[] denominations = {500 , 100 , 25 , 10 , 5 , 1};
         for (int denomination : denominations) {
             if (remaining >= denomination) {
                 int count = remaining / denomination;
                 remaining %= denomination;
-                change.put(denomination, count);
+                change.put(denomination , count);
             }
         }
 
