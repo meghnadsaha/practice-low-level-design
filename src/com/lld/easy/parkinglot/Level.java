@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Level {
-    private final List<ParkingSpot> spots;
+    protected final List<ParkingSpot> spots;
 
     public Level ( int numOfSpots ) {
         spots = new ArrayList<>(numOfSpots);
