@@ -1,4 +1,4 @@
-package com.lld.hotelmanagement;
+package com.lld.hard.hotelmanagement;
 
 import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
