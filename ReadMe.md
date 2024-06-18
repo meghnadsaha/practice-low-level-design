@@ -4,6 +4,9 @@ Learn Low Level Design (LLD) and prepare for interviews using free resources.
 ## Low Level Design Interview Problems
 ### Easy
 - [Meeting Scheduler](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Meeting%20Scheduler.md)
+- [Bike Rental Shop](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Bike%20Rental%20Shop.md)
+  
+
 
 ### Medium
 - [Design Pub Sub System](problems/pub-sub-system.md)
