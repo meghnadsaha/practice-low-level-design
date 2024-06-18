@@ -47,7 +47,7 @@ You are tasked with designing the low-level components for a Jigsaw Puzzle game.
 Here's a basic example of how you might implement the classes and a sequence diagram for a Jigsaw Puzzle game using PlantUML. Note that this is a simplified example and may need to be adapted based on your specific requirements.
 
 ### Class Diagram:
-<img src=""/>
+<img src="https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Jigsaw%20Puzzle-Class%20Diagram.png?raw=true"/>
 
 ```plantuml
 @startuml
@@ -121,6 +121,6 @@ View "1" -- "1" Game
 
 ### Sequence Diagram :
 
-<img src=""/>
+<img src="https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Jigsaw%20game-Sequence%20Diagram.png?raw=true"/>
 
 This is a basic outline and may need to be expanded or modified based on the specific requirements and interactions of your game.
