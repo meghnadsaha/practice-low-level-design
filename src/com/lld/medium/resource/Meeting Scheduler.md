@@ -1,4 +1,4 @@
----
+
 
 ## Low-Level Design: Meeting Scheduler
 
@@ -37,7 +37,6 @@ You are tasked with designing a meeting scheduler for a building with `N` rooms.
 4. How would you minimize spillage when scheduling meetings?
 5. How would you handle concurrency in the system to ensure meetings are scheduled correctly without conflicts?
 
----
 
 ### Java Implementation Criteria for Meeting Scheduler
 
