@@ -32,7 +32,7 @@ Here is a simplified example of a class diagram and a sequence diagram for the b
 
 ### Class Diagram
 
-<img src=""/>
+<img src="https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Bowling%20Alley%20Game-class%20diagram.png?raw=true"/>
 
 ```plantuml
 @startuml
@@ -83,5 +83,5 @@ Strategy <|-- StrikeStrategy
 ```
 
 ### Sequence Diagram
-<img src=""/>
+<img src="https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Bowling%20Alley%20Game-Sequence%20Diagram.png?raw=true" width="50%"/>
 
