@@ -83,5 +83,5 @@ Strategy <|-- StrikeStrategy
 ```
 
 ### Sequence Diagram
-<img src="https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Bowling%20Alley%20Game-Sequence%20Diagram.png?raw=true" width="100%"/>
+<img src="https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Bowling%20Alley%20Game-Sequence%20Diagram.png?raw=true" width="50%"/>
 
