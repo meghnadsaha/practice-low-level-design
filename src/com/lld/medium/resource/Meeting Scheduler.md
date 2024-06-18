@@ -108,6 +108,8 @@ You are tasked with designing a meeting scheduler for a building with `N` rooms.
 - **Extensibility**:
    - Design the system to allow easy addition of new features, such as different types of rooms, recurring meetings, or advanced search criteria for meeting rooms.
 
+[Full Code](../solutions/java/src/onlineshopping/)
+
 ### Activity Diagram
 <img src="https://raw.githubusercontent.com/meghnadsaha/practice-low-level-design/master/src/com/lld/medium/resource/Meeting%20Scheduler%20-%20Activity%20diagram%20.png"/>
 
