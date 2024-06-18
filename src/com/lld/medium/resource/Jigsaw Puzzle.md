@@ -1,6 +1,9 @@
 
 ### Problem Statement: Jigsaw Puzzle Low-Level Design
 
+<img src="https://www.discworldemporium.com/wp-content/uploads/2023/04/terry-pratchett-discworld-glorious-25th-lilac-night-watch-jigsaw-puzzle-sam-vimes-pieces.jpg" height="600" weight="600"/>
+
+
 You are tasked with designing the low-level components for a Jigsaw Puzzle game. The game should allow players to solve jigsaw puzzles by assembling various pieces to form a complete picture.
 
 ### Requirements:
