@@ -10,7 +10,7 @@ Learn Low Level Design (LLD) and prepare for interviews using free resources.
 
 
 ### Medium
-- [Design Pub Sub System](problems/pub-sub-system.md)
+- [Design Pub Sub System](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Kafka%20LLD.md)
 ### Hard
 - [Design Movie Ticket Booking System](problems/movie-ticket-booking-system.md)
 
