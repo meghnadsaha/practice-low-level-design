@@ -10,6 +10,13 @@ Learn Low Level Design (LLD) and prepare for interviews using free resources.
 - [Design LeetCode](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/LeetCode-Like%20System.md)
 - [Design Meeting Scheduler](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Meeting%20Scheduler.md)
 - [Design Facebook](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/SocialNetworkingDemo.md)
+- [Design Web Crawler LLD]()
+- [Designing a trading system like Zerodha]()
+- [Design File System to read file having 10M lines]()
+- [Design In-Memory File System]()
+- [Design and implement  Cricbuzz]()
+
+
 
 
 
