@@ -356,8 +356,9 @@ This design includes the Kafka-like components and shows how they can be interco
 
 [Full Code](https://github.com/meghnadsaha/practice-low-level-design/tree/master/src/com/lld/medium/kafka)
 
-### Activity Diagram
-<img src="https://github.com/meghnadsaha/practice-low-level-design/tree/master/src/com/lld/medium/resource/kafka-Class Diagram.png"/>
 
 ### Class Diagram
-<img src="https://github.com/meghnadsaha/practice-low-level-design/tree/master/src/com/lld/medium/resource/kafka-Sequence Diagram.png"/>
+<img src="https://raw.githubusercontent.com/meghnadsaha/practice-low-level-design/master/src/com/lld/medium/resource/kafka-Class%20Diagram.png"/>
+
+### Activity Diagram
+<img src="https://raw.githubusercontent.com/meghnadsaha/practice-low-level-design/master/src/com/lld/medium/resource/kafka-Sequence%20Diagram.png"/>
