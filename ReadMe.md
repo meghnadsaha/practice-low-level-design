@@ -6,7 +6,12 @@ Learn Low Level Design (LLD) and prepare for interviews using free resources.
 - [Design Meeting Scheduler](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Meeting%20Scheduler.md)
 - [Design Bike Rental Shop](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Bike%20Rental%20Shop.md)
 - [Design Jigsaw Puzzle](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Jigsaw%20Puzzle.md)
-  
+- [Design Bowling alley game](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Bowling%20alley%20game.md)
+- [Design LeetCode](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/LeetCode-Like%20System.md)
+- [Design Meeting Scheduler](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/Meeting%20Scheduler.md)
+- [Design Facebook](https://github.com/meghnadsaha/practice-low-level-design/blob/master/src/com/lld/medium/resource/SocialNetworkingDemo.md)
+
+
 
 
 ### Medium
