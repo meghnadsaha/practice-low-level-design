@@ -1,3 +1,5 @@
+## Low-Level Design: Kafka
+
 To design a system to notify events to multiple servers, similar to Kafka, we'll follow these steps:
 
 

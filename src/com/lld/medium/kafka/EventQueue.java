@@ -11,7 +11,7 @@ public class EventQueue {
     }
 
 
-    public synchronized Event getNextEvent ( Event event ) {
+    public synchronized Event getNextEvent ( ) {
         while (queue.isEmpty()) {
             try {
                 wait();
