@@ -17,4 +17,11 @@ public class Partition {
     public Event getNextEvent () {
         return events.getNextEvent();
     }
+
+
+    public EventQueue getEvents () {
+        return events;
+    }
+
+
 }
